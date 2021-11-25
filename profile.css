@@ -50,6 +50,9 @@ font-size: 1rem;
     color: white;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin: 2em;
 }
 
 .header__icons{
@@ -60,18 +63,18 @@ font-size: 1rem;
 
 }
 
-section{
+.avatar{
     display: flex;
     flex-direction:column;
     justify-content: space-between;
     padding: 1em;
+    align-items: center;
     text-align: center;
 }
 
+
+
 img{
-display: flex;
-flex-direction: column;
-justify-content: center;
 border-radius: 50%;
 max-width: 135px;
 max-height: 135px;
