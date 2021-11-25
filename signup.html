@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+    <link rel="stylesheet" href="signup.css" />
+  </head>
+  <body>
+    <main class="signup">
+      <form class="signup__form" action="thankyou.html" method="post">
+        <label class="signup__label" for="name">Name</label>
+        <input
+          class="signup__input"
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Name"
+        />
+
+        <label class="signup__label" for="email">Email</label>
+        <input
+          class="signup__input"
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email"
+        />
+
+        <label class="signup__label" for="password">Password</label>
+        <input
+          class="signup__input"
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Password"
+        />
+
+        <label class="signup__label" for="confirm-password"
+          >Confirm password</label
+        >
+        <input
+          class="signup__input"
+          type="password"
+          name="confirm-password"
+          id="confirm-password"
+          placeholder="Confirm password"
+        />
+
+        <button class="signup__sendButton button--primary" type="submit">
+          Sign up
+        </button>
+      </form>
+    </main>
+
+    <script>
+      const button = document.querySelector(".signup__sendButton");
+      button.addEventListener("click", function (event) {
+        event.preventDefault();
+        location.href = "thankyou.html";
+      });
+
+      const inputs = document.querySelectorAll("input");
+      for (let i = 0; i < inputs.length; i++) {
+        inputs[i].addEventListener("focus", () => {
+          inputs[i].classList.toggle("--active");
+          console.log(inputs[i].placeholder);
+        });
+        inputs[i].addEventListener("blur", () => {
+          inputs[i].classList.toggle("--active");
+          console.log(inputs[i].placeholder);
+        });
+      }
+    </script>
+  </body>
+</html>
