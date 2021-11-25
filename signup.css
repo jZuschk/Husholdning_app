@@ -1,5 +1,8 @@
+@media screen and (max-width: 440px ){
+
 .signup {
 }
+
 .signup__form {
   display: grid;
 }
@@ -29,6 +32,14 @@
 }
 
 .signup__sendButton {
+  border: none;
+  height: 2rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  background-color: #BBE4F9;
+  color: black;
+
 }
 
 .button--primary {
@@ -37,10 +48,24 @@
   padding: 0.5rem 1rem;
   font-size: 1rem;
   margin-top: 1rem;
-  background-color: #66c966;
-  color: #fff;
+  background-color: #BBE4F9;
+  color: black;
 }
 .button--primary:hover {
   background-color: #4fa34f;
   cursor: pointer;
+}
+.signup_line {
+
+}
+
+.signup_buttomtext {
+  text-align: center;
+}
+
+.signup_login {
+  text-align: center;
+}
+
+
 }
