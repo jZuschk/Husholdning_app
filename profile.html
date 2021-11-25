@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Din profil</title>
+    <link rel="stylesheet" href="profile.css" />
+</head>
+<body>
+    <section class="profile__container">
+    <header class="header__icons"> 
+            <a href="home.html"><img src="images/back.png" alt="back"></a>
+            <a href="menu.html"><img src="images/menu_icon.png" alt="menu"></a>
+    </header>
+    <section>
+        <h1>Din profile</h1>
+        <img src="images/profile_picture.jpg" alt="Avatar">
+    </section>
+
+
+    <main class="registering">
+        <form class="registering__form" action="profile.html" method="post">
+          <label class="registering__label" for="name">Navn</label>
+          <input
+            class="registering__input"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Navn"
+          />
+  
+          <label class="registering__label" for="email">Email</label>
+          <input
+            class="registering__input"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+          />
+  
+          <label class="registering__label" for="phonenumer">Telefonnummer</label>
+          <input
+            class="registering__input"
+            type="phonenumer"
+            name="phonenumer"
+            id="phonenumer"
+            placeholder="Telefonnummer"
+          />
+
+          <button class="registering__button">Rediger profil</button>
+     </main> 
+    </section>
+</body>   
+</html>
