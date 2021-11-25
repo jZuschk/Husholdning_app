@@ -1,4 +1,4 @@
-@media screen and (max-width 440px) /*---- Skal ændres til min-width, når tablet/pc version kodes*/
+@media screen and (max-width: 440px) /*---- Skal ændres til min-width, når tablet/pc version kodes*/
 {
-  body  
+   
 }
