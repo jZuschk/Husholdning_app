@@ -1,0 +1,15 @@
+.temp {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.take_me_home {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+    padding-bottom: 1em;
+
+}
