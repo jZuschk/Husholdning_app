@@ -20,12 +20,12 @@ function myFunction() {
   }
 
 /*--------------------------------------*/
-
+/*
 function myFunction() {
   document.getElementById("dropdownmenu2").classList.toggle("show");
 }
 
-/* Closes when you click outside */
+/* Closes when you click outside 
 window.onclick = function(event) {
   if (!event.target.matches('.dropdown_button2')) {
     var dropdowns = document.getElementsByClassName("dropdown-content2");
@@ -38,3 +38,4 @@ window.onclick = function(event) {
     }
   }
 }
+*/
