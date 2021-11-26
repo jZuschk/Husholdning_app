@@ -1,3 +1,4 @@
+/*Asta er færdig med profil*/
 body{
     margin: 0;
 }
@@ -50,9 +51,12 @@ font-size: 1rem;
     color: white;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    margin: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin-top: 2em;
+    /*margin-left: 2em;*/
 }
 
 .header__icons{
