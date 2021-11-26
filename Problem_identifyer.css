@@ -1,4 +1,4 @@
-/* Dette er en TEST aka jeg leger - Skyum */
+/* OPS - Der skal laves en JS fil mere/tilføjes classes/sættes ind i hver sin folder (Pletter/Rengoering) til Rengoerings siden */
 
 
 .dropdown_button {
@@ -42,6 +42,53 @@
   
   
   .dropdown-content a:hover {background-color: #BBE4F9}
+  
+
+  .show {display:block;}
+
+  /*--------------------------------*/
+
+  .dropdown_button2 {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  .dropdown_button2:hover, .dropdown_button2:focus {
+    background-color: #2980B9;
+  }
+  
+
+  .dropdown2 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  
+  .dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  
+  .dropdown-content2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+  }
+  
+  
+  .dropdown-content2 a:hover {background-color: #BBE4F9}
   
 
   .show {display:block;}
