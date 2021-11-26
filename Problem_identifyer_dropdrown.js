@@ -1,4 +1,4 @@
-/*Dette er en TEST aka jeg leger - Skyum */
+/* OPS - Der skal laves en JS fil mere/tilføjes classes/sættes ind i hver sin folder (Pletter/Rengoering), til Rengoerings siden */
 
 /* Opens the menu when the user clicks on it */
 function myFunction() {
